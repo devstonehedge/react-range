@@ -1,5 +1,5 @@
 {
-  "name": "react-range",
+  "name": "realx-react-range",
   "version": "1.8.9",
   "description": "Range input. Slides in all directions.",
   "main": "lib/index.js",
