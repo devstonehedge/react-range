@@ -63,8 +63,8 @@ export function isVertical(direction: Direction) {
 }
 
 export function checkBoundaries(value: number, min: number, max: number) {
-  if (min >= max) {
-    throw new RangeError(`min (${min}) is equal/bigger than max (${max})`);
+  if (min > max) {
+    throw new RangeError(`min (${min}) is bigger than max (${max})`);
   }
   if (value < min) {
     throw new RangeError(`value (${value}) is smaller than min (${min})`);
